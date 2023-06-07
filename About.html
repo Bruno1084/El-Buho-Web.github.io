@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="./Styles/Header.css">
+    <link rel="stylesheet" href="./Styles/About.css">
+    <link rel="stylesheet" href="./Styles/Footer.css">
+
+
+    <title>El Búho</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="d-flex flex-wrap justify-content-center py-3 md-4 align-items-center">
+                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                    <img src="./Imgs/LogoSimpleSinFondo.png" alt="Logo" style="height: 60px;">
+                    <h1>El BÚHO</h1>
+                  </a>
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a href="./Index.html" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+                    <li class="nav-item"><a href="./Product.html" class="nav-link">Colecciones</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section id="AboutUs">
+        <div class="container-fluid row p-0 m-0">
+            <div class="col-md-6 d-flex justify-content-center">
+                <div class=" img-fluid" id="container-img">
+                    <img src="./Imgs/imgAbout.jpg" class="h-100 w-100" alt="PersonImg">
+                </div>
+                <div class="box" id="caja1"></div>
+                <div class="box" id="caja2"></div>
+            </div> 
+            <div class="col-md-6" id="container-text">
+                <h1 class="text-center">Sobre Nosotros</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur et hic, aliquid eaque dolorum nobis fugiat quisquam mollitia aperiam, est molestias id perspiciatis soluta iusto maiores expedita minus repudiandae deleniti!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, inventore.</p>
+            </div>   
+        </div>
+    </section>
+
+    <section id="Formulario">
+        <div class="container-fluid d-flex justify-content-center align-items-center" id="container-form">
+            <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="input-group">
+                            <input type="text" id="name" required>
+                            <label for="name"><i class="bi bi-person-fill"></i> Nombre</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-group">
+                            <input type="text" id="number" required>
+                            <label for="number"><i class="bi bi-telephone-fill"></i> Teléfono</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" required>
+                    <label for="email"><i class="bi bi-envelope-fill"></i> Correo</label>
+                </div>
+                <div class="input-group">
+                    <textarea id="message" rows="8" required></textarea>
+                    <label for="message"><i class="bi bi-chat-fill"></i> Mensaje</label>
+                </div>
+                <button type="button">Enviar <i class="bi bi-send-fill"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <section id="Mapa" class="container-fluid d-flex justify-content-center align-items-center p-0">
+        <div class="container-fluid p-0" id="container-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3334.497239637726!2d-66.3399528248415!3d-33.305813690118654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d43955f8918d45%3A0xbafdecd26bdb1e1f!2sAyacucho%201056%2C%20D5700DDE%20San%20Luis!5e0!3m2!1ses!2sar!4v1685654326868!5m2!1ses!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-white">
+        <div class="container-fluid row border-button">
+            <div class="col-sm">
+                <p><img src="./Imgs/LogoSinFondo_Inferior.png" alt="LogoFooter" id="footer-logo"> El Búho</p>
+                <p>Indumentaria Masculina</p>
+                <p>Ayacucho 1056, San Luis</p>
+            </div>
+            <div class="col-sm" id="footer-container-links">
+                <a href="#" class="d-block">Inicio</a>
+                <a href="#" class="d-block">Colecciones</a>
+                <a href="#" class="d-block">Contactanos</a>
+                <a href="#" class="d-block">Atención al Cliente</a>
+            </div>
+            <div class="col">
+                <form action="">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-auto">
+                            <p class="pt-2">
+                            <strong>Suscribete para recibir ofertas</strong>
+                            </p>
+                        </div>
+                        <div>
+                            <div class="form-outline form-white mb-4">
+                                <input type="email" id="form5Example21" class="form-control" />
+                                <label class="form-label" for="form5Example21">Correo Electrónico</label>
+                            </div>
+                        </div>
+  
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-outline-light mb-4">
+                            Suscribirse
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="d-flex flex-column flex-sm-row justify-content-between border-top" id="container-copyright">
+            <p>©2022 El Búho. Todos los derechos reservados.</p>
+            <ul class="list-unstyled d-flex justify-content-center">
+                <a href="#"><img src="./Imgs/facebook.svg" class="d-block" alt="facebook"></a>
+                <a href="#"><img src="./Imgs/geo-alt.svg" class="d-block" alt="Geo"></a>
+                <a href="#"> <img src="./Imgs/instagram.svg" class="d-block" alt="Instragram"></a>
+            </ul>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+/* Inicio Footer */
+footer{
+    padding-top: 40px;
+    background-color: #333333;
+}
+#footer-logo{
+    height: 5rem;
+}
+#footer-container-links a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+#container-copyright{
+    padding: 0 30px;
+}
+#container-copyright img{
+    height: 25px;
+    margin: 5px 10px;
+}
+  

@@ -1,0 +1,55 @@
+/* Inicio Presentacion */
+#hero-text{
+    background-color: #e7e2d6;
+    padding: 30px;
+    text-align: center;
+}
+#hero-img{
+    position: relative;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#img-container{
+    height: 100%;
+    position: absolute;
+}
+#imagen{
+    height: 100%;
+    width: 100%;
+}
+#col1, #col2{
+    height: 400px;
+}
+#col1{
+    background-color: #e7e2d6;
+}
+#col2{
+    background-color: #E57E8C;
+    position: relative;
+    z-index: -1;
+}
+.socialLinks{
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    transform: translateY(-50%); 
+}
+.socialLinks img{
+    margin: 15px 0;
+    height: 23px;
+}
+@media only screen and (max-width: 768px) {
+    .card-producto1{
+      display: none;
+    }
+    .card-producto2{  
+      width: 18rem;
+    }
+}
+@media only screen and (max-width: 450px){
+    .socialLinks{
+        display: none;
+    }
+}

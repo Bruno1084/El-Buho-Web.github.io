@@ -1,0 +1,75 @@
+/* Inicio About */
+#AboutUs{
+    padding: 90px 0;
+    background-color: #e7e2d6;
+}
+#container-img{
+    border: 1px solid crimson;
+    height: 300px;
+    width: 300px;
+}
+#container-text{
+    padding: 30px;
+}
+
+/* Inicio Form */
+#Formulario{
+    background-color: #333333;
+    padding: 30px;
+}
+#container-form{
+    height: 100%;
+}
+form{
+    width: 90%;
+    max-width: 600px;
+}
+.input-group{
+    margin-bottom: 30px;
+    position: relative;
+}
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    background:  transparent;
+    font-size: 15px;
+}
+label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #fff;
+    cursor: text;
+    transition: 0.2s;
+}
+button{
+    padding: 10px 0;
+    color: #fff;
+    border: 1px solid #fff;
+    outline: 0;
+    background: transparent;
+    width: 100%;
+    cursor: pointer;
+}
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+    top: -35px;
+    font-size: 14px;
+}
+
+/* Inicio Mapa */
+#Mapa{
+    height: 450px;
+    width: 100%;
+    background-color: #e7e2d6;
+}
+#container-map{
+    height: 80%;
+}
