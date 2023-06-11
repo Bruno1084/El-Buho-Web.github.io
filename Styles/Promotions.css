@@ -1,4 +1,7 @@
 /*Estilo de las promociones*/
+#promociones{
+  background-color: #e7e2d6;
+}
 .promocion1{
 background: url(../Imgs/estilo_Urbano.png) no-repeat;
 background-size: cover;
