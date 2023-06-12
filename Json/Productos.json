@@ -1,0 +1,66 @@
+[
+    {
+        "imagen": "./Imgs/Shirt-removebg.png",
+        "nombre": "Remera Goddam Saint",
+        "descripción": "Remera Goddam Saint estampada, talla M Negra.",
+        "categoria": "remera",
+        "precio": 3500,
+        "descuento": "15%"
+    },
+    {
+        "imagen": "./Imgs/Pants-BlackAndWhite-removebg.png",
+        "nombre": "Pantalon bicolor streetwear",
+        "descripción": "Pantalón bicolor streetwar, talla S, M.",
+        "categoria": "pantalon",
+        "precio": 5230,
+        "descuento": ""
+    },
+    {
+        "imagen": "./Imgs/shoes-Product.png",
+        "nombre": "Zapatillas Adidas Hombre",
+        "descripción": "Zapatillas Adidas urbanas hombre color piel, talla 42, 41.",
+        "categoria": "zapatilla",
+        "precio": 7320,
+        "descuento": "5%"
+    },
+    {
+        "imagen": "./Imgs/gorra-Product.jpg",
+        "nombre": "Gorra Kiricocho Bordada",
+        "descripción": "Gorra Kiricocho bordada, bordada color piel, gabardina.",
+        "categoria": "gorra",
+        "precio": 3000,
+        "descuento": ""
+    },
+    {
+        "imagen": "./Imgs/buzo-Product.jpg",
+        "nombre": "Buzo Valknut",
+        "descripción": "Buzo Valknut con runas nórdicas color gris.",
+        "categoria": "abrigo",
+        "precio": 6200,
+        "descuento": "10%"
+    },
+    {
+        "imagen": "./Imgs/pantalon-Product2.jpg",
+        "nombre": "Pantalon de Vestir",
+        "descripción": "Pantalon de vestir Vittorio, color gris talle m/l/xl.",
+        "categoria": "pantalon",
+        "precio": 7500,
+        "descuento": ""
+    },
+    {
+        "imagen": "./Imgs/remera-Product2.jpg",
+        "nombre": "Remera Rallada Daily",
+        "descripción": "Remera Rallada blanco y gris, algodón.",
+        "categoria": "remera",
+        "precio": 5520,
+        "descuento": "12%"
+    },
+    {
+        "imagen": "./Imgs/campera-Product2.jpg",
+        "nombre": "Parka Hombre Adidas Xploric",
+        "descripción": "Campera parka hombre Adidas Xploric Azul",
+        "categoria": "abrigo",
+        "precio": 12400,
+        "descuento": ""
+    }
+]
