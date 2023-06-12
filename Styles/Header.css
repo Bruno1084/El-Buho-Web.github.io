@@ -8,7 +8,6 @@
 /* Inicio Header*/
 header{
   background-color: #333333;
-  text-decoration: none;
 }
 header h1{
   color: #E31E45;
@@ -17,5 +16,20 @@ header h1{
   font-size: 2rem;
 }
 .nav-link{
-  color: #E31E45;
+  color: #e7e2d6;
+  letter-spacing: 1px;
+}
+.nav-link:hover{
+  color: #e7e2d6;
+}
+.nav-link::after{
+  content: '';
+  width: 0%;
+  transition: .5s ease-in-out;
+}
+.nav-link:hover::after{
+  height: 2px;
+  width: 100%;
+  background-color: #E31E45;
+  display: block;
 }
