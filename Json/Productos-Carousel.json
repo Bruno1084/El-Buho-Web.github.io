@@ -1,6 +1,6 @@
 [
     {
-        "imagen": "./Imgs/Shirt-removebg.png",
+        "imagen": "https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/Shirt-removebg.png",
         "nombre": "Remera Goddam Saint",
         "descripción": "Remera Goddam Saint estampada, talla M Negra.",
         "categoria": "remera",
@@ -8,7 +8,7 @@
         "descuento": "15%"
     },
     {
-        "imagen": "./Imgs/Pants-BlackAndWhite-removebg.png",
+        "imagen": "https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/Pants-BlackAndWhite-removebg.png",
         "nombre": "Pantalon bicolor streetwear",
         "descripción": "Pantalón bicolor streetwar, talla S, M.",
         "categoria": "pantalon",
@@ -16,7 +16,7 @@
         "descuento": ""
     },
     {
-        "imagen": "./Imgs/shoes-Product.png",
+        "imagen": "https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/shoes-Product.png",
         "nombre": "Zapatillas Adidas Hombre",
         "descripción": "Zapatillas Adidas urbanas hombre color piel, talla 42, 41.",
         "categoria": "zapatilla",
@@ -24,7 +24,7 @@
         "descuento": "5%"
     },
     {
-        "imagen": "./Imgs/gorra-Product.jpg",
+        "imagen": "https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/gorra-Product.jpg",
         "nombre": "Gorra Kiricocho Bordada",
         "descripción": "Gorra Kiricocho bordada, bordada color piel, gabardina.",
         "categoria": "gorra",
@@ -32,7 +32,7 @@
         "descuento": ""
     },
     {
-        "imagen": "./Imgs/buzo-Product.jpg",
+        "imagen": "https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/buzo-Product.jpg",
         "nombre": "Buzo Valknut",
         "descripción": "Buzo Valknut con runas nórdicas color gris.",
         "categoria": "abrigo",
@@ -40,7 +40,7 @@
         "descuento": "10%"
     },
     {
-        "imagen": "./Imgs/pantalon-Product2.jpg",
+        "imagen": "https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/pantalon-Product.jpg",
         "nombre": "Pantalon de Vestir",
         "descripción": "Pantalon de vestir Vittorio, color gris talle m/l/xl.",
         "categoria": "pantalon",
@@ -48,7 +48,7 @@
         "descuento": ""
     },
     {
-        "imagen": "./Imgs/remera-Product2.jpg",
+        "imagen": "https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/remera-Product2.jpg",
         "nombre": "Remera Rallada Daily",
         "descripción": "Remera Rallada blanco y gris, algodón.",
         "categoria": "remera",
@@ -56,7 +56,7 @@
         "descuento": "12%"
     },
     {
-        "imagen": "./Imgs/campera-Product2.jpg",
+        "imagen": "https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/campera-Product2.jpg",
         "nombre": "Parka Hombre Adidas Xploric",
         "descripción": "Campera parka hombre Adidas Xploric Azul",
         "categoria": "abrigo",
