@@ -1,4 +1,4 @@
-// Initialize Variables
+/* Initialize Variables
 var closePopup = document.getElementById("popupclose");
 var overlay = document.getElementById("overlay");
 var popup = document.getElementById("popup");
@@ -23,4 +23,5 @@ document.querySelector('button').addEventListener('click', e => {
 
 document.querySelector('popupclose').addEventListener('click', e =>{
   document.body.classList.remove('no-scroll');
-});
+})
+*/
