@@ -26,7 +26,7 @@ const createCard=(productos)=> {
             <p class="text-success" id="discount">${producto.descuento}</p>
           </div>
         </div>
-        <a class="bg-danger text-center text-decoration-none" href="#">
+        <a class="bg-danger text-center text-decoration-none" href="#" onclick="compra_formulario()">
           <p href="" class="card-button text-white">Comprar</p> 
         </a>`;
       contenedor_cartas.appendChild(cardProducto);

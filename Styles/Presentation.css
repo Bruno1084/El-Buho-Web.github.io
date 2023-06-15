@@ -3,7 +3,11 @@
     background-color: #e7e2d6;
     padding: 30px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 #hero-img{
     position: relative;
     padding: 0;
