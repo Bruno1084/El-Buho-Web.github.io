@@ -73,8 +73,8 @@
     },
     {
         "imagen":"https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/camisa3.jpg",
-        "nombre":"Camisa Leñadora",
-        "descripción":" Camisa leñadora slim-fit talle m/l",
+        "nombre":"Camisa de Vestir",
+        "descripción":" Camisa de Vestir slim-fit talle m/l",
         "categoria":"camisa",
         "precio": 6420,
         "descuento":"5%"
@@ -94,5 +94,45 @@
         "categoria":"accesorio",
         "precio": 6100,
         "descuento":"10%"
+    },
+    {
+        "imagen":"https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/remera3.jpg",
+        "nombre":"Remera Baseball",
+        "descripción":"Remra baseball rallada x/xl",
+        "categoria":"remera",
+        "precio": 4900,
+        "descuento":""
+    },
+    {
+        "imagen":"https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/pantalon3.jpg",
+        "nombre":"Pantalón deportivo",
+        "descripción":"Pantalón deportivo Pull and Bear",
+        "categoria":"pantalon",
+        "precio": 5500,
+        "descuento":"5%"
+    },
+    {
+        "imagen":"https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/camisa-Product.jpg",
+        "nombre":"Camisa Leñadora",
+        "descripción":"Camisa Leñadora l/xl",
+        "categoria":"camisa",
+        "precio": 7200,
+        "descuento":""
+    },
+    {
+        "imagen": "https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/campera-Product2.jpg",
+        "nombre": "Chaleco Ariel 6-12A",
+        "descripción": "Chaleco Ariel 6-12A talle m/l",
+        "categoria": "abrigo",
+        "precio": 10200,
+        "descuento": ""
+    },
+    {
+        "imagen": "https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/zapatilla3.jpg",
+        "nombre": "Zapatilla Adidas UltraBoost",
+        "descripción": "Zapatillas Adidas runing, 39/40",
+        "categoria": "zapatilla",
+        "precio": 8300,
+        "descuento": "5%"
     }
 ]
