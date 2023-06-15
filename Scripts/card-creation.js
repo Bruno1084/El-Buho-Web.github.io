@@ -1,4 +1,3 @@
-const bt_Categorias= document.getElementsByName('fCategorias');
 const contenedor_cartas= document.getElementById("container-cards");
 var  todos_los_productos= [];
 
@@ -38,6 +37,7 @@ const getCardData=()=>{
     createCard(todos_los_productos);
   })
 }
+
 
 
 getCardData();
