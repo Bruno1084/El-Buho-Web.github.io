@@ -18,7 +18,7 @@
     {
         "imagen": "https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/shoes-Product.png",
         "nombre": "Zapatillas Adidas Sport",
-        "descripción": "Zapatillas Adidas urbanas hombre color piel, talla 42, 41.",
+        "descripción": "Zapatillas Adidas urbanas color piel, 41/42.",
         "categoria": "zapatilla",
         "precio": 7320,
         "descuento": "5%"
@@ -42,7 +42,7 @@
     {
         "imagen": "https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/pantalon-Product.jpg",
         "nombre": "Pantalon de Vestir",
-        "descripción": "Pantalon de vestir Vittorio, gris talle m/l/xl.",
+        "descripción": "Pantalon Vittorio, talle m/l/xl.",
         "categoria": "pantalon",
         "precio": 7500,
         "descuento": ""
@@ -120,7 +120,7 @@
         "descuento":""
     },
     {
-        "imagen": "https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/campera-Product2.jpg",
+        "imagen": "https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/abrigo3.jpg",
         "nombre": "Chaleco Ariel 6-12A",
         "descripción": "Chaleco Ariel 6-12A talle m/l",
         "categoria": "abrigo",
