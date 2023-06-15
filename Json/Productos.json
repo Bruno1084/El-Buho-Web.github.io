@@ -9,7 +9,7 @@
     },
     {
         "imagen": "https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/Pants-BlackAndWhite-removebg.png",
-        "nombre": "Pantalon bicolor streetwear",
+        "nombre": "Pantalon Bicolor Streetwear",
         "descripción": "Pantalón bicolor streetwar, talla S, M.",
         "categoria": "pantalon",
         "precio": 5230,
@@ -17,7 +17,7 @@
     },
     {
         "imagen": "https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/shoes-Product.png",
-        "nombre": "Zapatillas Adidas Hombre",
+        "nombre": "Zapatillas Adidas Sport",
         "descripción": "Zapatillas Adidas urbanas hombre color piel, talla 42, 41.",
         "categoria": "zapatilla",
         "precio": 7320,
@@ -26,8 +26,8 @@
     {
         "imagen": "https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/gorra-Product.jpg",
         "nombre": "Gorra Kiricocho Bordada",
-        "descripción": "Gorra Kiricocho bordada, bordada color piel, gabardina.",
-        "categoria": "gorra",
+        "descripción": "Gorra Kiricocho, bordada color piel, gabardina.",
+        "categoria": "accesorio",
         "precio": 3000,
         "descuento": ""
     },
@@ -42,7 +42,7 @@
     {
         "imagen": "https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/pantalon-Product.jpg",
         "nombre": "Pantalon de Vestir",
-        "descripción": "Pantalon de vestir Vittorio, color gris talle m/l/xl.",
+        "descripción": "Pantalon de vestir Vittorio, gris talle m/l/xl.",
         "categoria": "pantalon",
         "precio": 7500,
         "descuento": ""
@@ -57,8 +57,8 @@
     },
     {
         "imagen": "https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/campera-Product2.jpg",
-        "nombre": "Parka Hombre Adidas Xploric",
-        "descripción": "Campera parka hombre Adidas Xploric Azul",
+        "nombre": "Parka Adidas Xploric",
+        "descripción": "Campera parka Adidas Xploric Azul",
         "categoria": "abrigo",
         "precio": 12400,
         "descuento": ""

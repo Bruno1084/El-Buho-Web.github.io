@@ -1,11 +1,15 @@
 const contenedor_cartas= document.getElementById("container-cards");
-var  todos_los_productos= [];
+
+var todos_los_productos= [];
+var productos_filtrados= [];
 
 const createCard=(productos)=> {
   contenedor_cartas.innerHTML= '';
     productos.forEach(producto => {
       const cardProducto = document.createElement('div');
-      cardProducto.setAttribute("class", "card")
+      cardProducto.setAttribute("class", "card");
+      var prodCategoria= `${producto.categoria}`;
+      cardProducto.setAttribute("data-item", prodCategoria);
       cardProducto.innerHTML += `
         <div class="card-imageContainer">
           <img src="${producto.imagen}" alt="" id="card-img">
@@ -37,7 +41,6 @@ const getCardData=()=>{
     createCard(todos_los_productos);
   })
 }
-
 
 
 getCardData();
