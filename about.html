@@ -54,7 +54,7 @@
     <!-- Formulario de contacto -->
     <section id="Formulario">
         <div class="container-fluid d-flex justify-content-center align-items-center" id="container-form">
-            <form method="post" action="./Scripts/form-control.js">
+            <form method="post" action="./Scripts/form-control.js" id="form-contacto">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="input-group" id="controlador-form">
@@ -81,7 +81,7 @@
                     <textarea id="message" rows="8" required></textarea>
                     <label for="message"><i class="bi bi-chat-fill"></i> Mensaje</label>
                 </div>
-                <button type="button" id="formularioContacto">Enviar <i class="bi bi-send-fill"></i></button>
+                <button type="submit" id="formularioContacto" form="form-contacto">Enviar <i class="bi bi-send-fill"></i></button>
             </form>
         </div>
     </section>
@@ -117,8 +117,8 @@
                         </div>
                         <div>
                             <div class="form-outline form-white mb-4">
-                                <input type="email" id="form5Example21" class="form-control" />
-                                <label class="form-label" for="form5Example21">Correo Electrónico</label>
+                                <input type="email" id="formSuscribe" class="form-control" />
+                                <label class="form-label" for="formSuscribe">Correo Electrónico</label>
                             </div>
                         </div>
   
