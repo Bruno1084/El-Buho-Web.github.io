@@ -62,5 +62,37 @@
         "categoria": "abrigo",
         "precio": 12400,
         "descuento": ""
+    },
+    {
+        "imagen":"https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/accesorio2.jpg",
+        "nombre":"Bufanza Rallada",
+        "descripción":"Bufanda rallada tricolor hombre",
+        "categoria":"accesorio",
+        "precio": 2200,
+        "descuento":""
+    },
+    {
+        "imagen":"https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/camisa3.jpg",
+        "nombre":"Camisa Leñadora",
+        "descripción":" Camisa leñadora slim-fit talle m/l",
+        "categoria":"camisa",
+        "precio": 6420,
+        "descuento":"5%"
+    },
+    {
+        "imagen":"https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/zapatilla2.jpg",
+        "nombre":"Zapatillas Nike Dunk Low",
+        "descripción":"Zapatillas Nike multicolor, talla 42/41",
+        "categoria":"zapatilla",
+        "precio": 12500,
+        "descuento":""
+    },
+    {
+        "imagen":"https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/accesorio3.jpg",
+        "nombre":"Lentes de Sol",
+        "descripción":"Lentes de sol con degradado",
+        "categoria":"accesorio",
+        "precio": 6100,
+        "descuento":"10%"
     }
 ]
