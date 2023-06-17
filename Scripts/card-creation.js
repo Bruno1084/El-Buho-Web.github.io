@@ -37,7 +37,7 @@ const createCard=(productos)=> {
 }
 
 const getCardData=()=>{
-  fetch("../Json/Productos.json")
+  fetch("https://bruno1084.github.io/TpMaquina-DW.github.io/Json/Productos.json")
   .then(res => res.json())
   .then(res => {
     todos_los_productos= res;
