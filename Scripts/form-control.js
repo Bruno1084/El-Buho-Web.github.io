@@ -8,7 +8,7 @@ window.addEventListener('load', ()=> {
     form.addEventListener('click', (e) => {
         e.preventDefault();
         validaCampos();
-    })
+    });
     
     function validaCampos(){
         var name = fName.value.trim();
@@ -33,31 +33,31 @@ window.addEventListener('load', ()=> {
         }
     
         
-         var numberEj = number.replace(/\D/g, '');         
-         if (numberEj.length !== 10) {
+        var numberEj = number.replace(/\D/g, '');         
+        if (numberEj.length !== 10) {
             validaFalla(fNumber, 'Debe contener 10 numeros obligatorios');
-          }
-         if(!numberEj){
-             validaFalla(fNumber, 'Campo vacío');
-         } else {
-             validaOk(fNumber);
-         }
+        }
+        if(!numberEj){
+            validaFalla(fNumber, 'Campo vacío');
+        }else {
+            validaOk(fNumber);
+        }
     
-         if (message.length > 60) {
+        if (message.length > 60) {
             validaFalla(fMessage, 'No puede exceder más de 60 caracteres');
             alert(s);
-         }
-         if(!message) {
+        }
+        if(!message) {
             validaFalla(fMessage, 'Campo vacío');
-        } else {
+        }else {
             validaOk(fMessage);
         }
-        if (
+        if(
             form.querySelectorAll('.controlador-form ok').length ===
             form.querySelectorAll('.controlador-form').length
-          ){
+        ){
             form.submit();
-          }
+        }
     }
     
     const validaFalla = (input, msje) => {
