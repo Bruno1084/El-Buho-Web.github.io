@@ -1,13 +1,15 @@
-
-
 #product-page{
     background-color: whitesmoke;
-    padding: 40px;
+}
+prod-container{
+}
+#product-page{
     display: flex;
     justify-content: center;
 }
-#prod-container > div{
-    border: 1px solid black;
+#prod-container{
+    margin: 70px 15px;
+
 }
 .prod-text{
     padding: 10px;
@@ -37,6 +39,7 @@ select{
     padding: 25px 0;
 }
 #container-buttons button{
+    margin:10px;
     padding: 5px;
     border-radius: 10px;
     color: whitesmoke;
@@ -47,6 +50,10 @@ select{
     color: #E31E45;
     background-color: whitesmoke;
     border: #E31E45 2px solid;
+}
+.prod-img-container{
+    display: flex;
+    justify-content: center;
 }
 
 
