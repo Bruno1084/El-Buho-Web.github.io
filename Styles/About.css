@@ -26,7 +26,6 @@ form{
 }
 .input-group{
     margin-bottom: 30px;
-    position: relative;
 }
 input, textarea{
     width: 100%;
@@ -38,14 +37,8 @@ input, textarea{
     font-size: 15px;
 }
 label{
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    padding: 10px;
     color: #fff;
     cursor: text;
-    transition: 0.2s;
 }
 button{
     padding: 10px 0;
@@ -55,13 +48,6 @@ button{
     background: transparent;
     width: 100%;
     cursor: pointer;
-}
-input:focus~label,
-input:valid~label,
-textarea:focus~label,
-textarea:valid~label{
-    top: -35px;
-    font-size: 14px;
 }
 
 /* Inicio Mapa */
@@ -77,63 +63,28 @@ textarea:valid~label{
 /*FormularioEstilos*/
 .controlador-form p {
     visibility: hidden;
-    position: absolute;
     font-size: small;
     font-weight: 500;
-    text-align: right;
+    float: right;
 }
 .controlador-form.falla p {
     visibility: visible;
     color:#e74c3c;
-    margin-top: 0.875rem;
-    margin-left: 12.188rem;
-}
 
+}
 .controlador-form.ok input {
-    border: 0.1px solid;
+    border: 1px solid;
     border-color: #08ffc8;
-    margin-bottom: 1.875rem;
 }
 .controlador-form.ok textarea {
-    border: 0.1px solid;
+    border: 1px solid;
     border-color: #08ffc8;
-    margin-bottom: 1.875rem;
 }
 .controlador-form.falla input {
-    border: 0.1px solid;
+    border: 1px solid;
     border-color: #fe5f55;
-    margin-bottom: 1.875rem;
 }
 .controlador-form.falla textarea {
-    border: 0.1px solid;
+    border: 1px solid;
     border-color: #fe5f55;
-    margin-bottom: 1.875rem;
-}
-.controlador-form {    
-    position: relative;
-    color: #0b0b0b;
-}
-.controlador-form label {
-    display: inline-block;
-    font:weight 200;
-    background: transparent;
-    
-}
-.controlador-form input {
-    border: none;
-    color: #ffffff;
-    display: block;
-    font-family: inherit;
-    font-size: 1rem;    
-}
-.controlador-form, input:focus {
-    outline: none;
-}
-.controlador-form.falla p.mensajeError1 {
-    margin-top: 0.875rem;
-    margin-left: 28.125rem;
-}
-.controlador-form.falla p.mensajeError2 {
-    margin-top: 12.813rem;
-    margin-left: 20.5rem;
 }
