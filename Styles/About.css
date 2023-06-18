@@ -88,3 +88,7 @@ button{
     border: 1px solid;
     border-color: #fe5f55;
 }
+
+.swal2-confirm{
+    background-color: #e96274 !important;
+}

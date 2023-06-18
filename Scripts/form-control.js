@@ -1,13 +1,20 @@
+
 window.addEventListener('load', ()=> {
     const form = document.querySelector('#formularioContacto')
     const fName = document.getElementById('name');
     const fNumber = document.getElementById('number');
     const fEmail = document.getElementById('email');
     const fMessage = document.getElementById('message');
+    var isValid= false
     
     form.addEventListener('click', (e) => {
-        e.preventDefault();
         validaCampos();
+        if(isValid== false){
+            e.preventDefault();
+        }else{
+            formEnviado();
+        }
+  
     });
     
     function validaCampos(){
@@ -15,6 +22,7 @@ window.addEventListener('load', ()=> {
         var number = fNumber.value.trim();
         var email = fEmail.value.trim();
         var message = fMessage.value.trim();
+
      
     
         if(!name){
@@ -45,18 +53,11 @@ window.addEventListener('load', ()=> {
     
         if (message.length > 60) {
             validaFalla(fMessage, 'No puede exceder más de 60 caracteres');
-            alert(s);
         }
         if(!message) {
             validaFalla(fMessage, 'Campo vacío');
         }else {
             validaOk(fMessage);
-        }
-        if(
-            form.querySelectorAll('.controlador-form ok').length ===
-            form.querySelectorAll('.controlador-form').length
-        ){
-            form.submit();
         }
     }
     
@@ -65,10 +66,12 @@ window.addEventListener('load', ()=> {
         const aviso = formControl.querySelector('p')
         aviso.innerText = msje
         formControl.className = 'controlador-form falla'
+        isValid= false;
     }
     const validaOk = (input, msje) => {
         const formControl = input.parentElement
         formControl.className = 'controlador-form ok'
+        isValid= true
     }
     
     const validaEmail = (email) => {
