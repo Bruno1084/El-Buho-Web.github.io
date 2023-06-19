@@ -33,7 +33,62 @@
 
     <!-- Sección de producto -->
     <section id="product-page">
-        
+    </section>
+
+    <section id="modal">
+        <div class="card col-sm-8 col-md-6">
+            <div class="card-header">
+                <div class="row">
+                    <div class="col-md-6">
+                        <span>PAGO CON TARJETA </span>
+                        </span> CRÉDITO/DÉBITO</span>  
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-md-end">
+                      <img src="https://img.icons8.com/color/36/000000/visa.png">
+                      <img src="https://img.icons8.com/color/36/000000/mastercard.png">
+                      <img src="https://img.icons8.com/color/36/000000/amex.png">           
+                    </div>      
+                </div>    
+            </div>
+
+            <div class="card-body">
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label for="numeric" class="control-label">NOMBRE COMPLETO</label>
+                        <input  type="text" class="input-lg form-control">
+                      </div>
+
+                      <div class="form-group col-md-6">
+                        <label for="numeric" class="control-label">DNI DEL TITULAR</label>
+                        <input  type="text" class="input-lg form-control">
+                      </div>
+                    
+                    
+                </div>
+              <div class="form-group">
+                <label for="cc-number" class="control-label">NUMERO DE TARJETA</label>
+                <input id="cc-number" type="tel" class="input-lg form-control cc-number" autocomplete="cc-number" placeholder="&bull;&bull;&bull;&bull; &bull;&bull;&bull;&bull; &bull;&bull;&bull;&bull; &bull;&bull;&bull;&bull;" required>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                     <div class="form-group">
+                        <label for="cc-exp" class="control-label">FECHA DE VENCIMIENTO</label>
+                        <input id="cc-exp" type="tel" class="input-lg form-control cc-exp" autocomplete="cc-exp" placeholder="&bull;&bull; / &bull;&bull;" required>
+                      </div>
+                </div>
+
+                 <div class="col-md-6">
+                   <div class="form-group">
+                    <label for="cc-cvc" class="control-label">CÓDIGO DE SEGURIDAD</label>
+                    <input id="cc-cvc" type="tel" class="input-lg form-control cc-cvc" autocomplete="off" placeholder="&bull;&bull;&bull;&bull;" required>
+                  </div>
+                </div>   
+              </div>
+              <div class="form-group">
+                <input  value="PAGAR" type="submit" class="btn btn-lg form-control" id="fPagar">
+              </div>
+            </div>
+        </div>
     </section>
 
       <!-- Footer -->

@@ -1,6 +1,7 @@
 const sec_product= document.getElementById('product-page');
 const producto= JSON.parse(localStorage.getItem("producto"));
 
+
 function createPageCard(){
     var prod_container= document.createElement('div');
     prod_container.setAttribute('id', 'prod-container');
@@ -39,13 +40,18 @@ function createPageCard(){
                     <p>${producto.descripción}</p>
                 </div>
                 <div id="container-buttons" class="formGroup row">
-                    <button type="button" class="col-sm-3">Comprar</button>
-                    <button type="button" class="col-sm-3">Añadir al Carrito</button>                        
+                    <button type="button" id="btnCompra" class="col-sm-3" onclick="showModal()">Comprar</button>
+                    <button type="button" id="btnCarrito" class="col-sm-3">Añadir al Carrito</button>                        
                 </div>
             </form>
         </div>
     `
     sec_product.appendChild(prod_container);
+}
+
+function showModal(){
+    const modal= document.getElementById('modal');
+    modal.style.display= 'flex';
 }
 
 createPageCard();
