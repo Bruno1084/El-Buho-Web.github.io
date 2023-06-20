@@ -23,6 +23,7 @@
     height: 100%;
     width: 100%;
 }
+
 #col1, #col2{
     height: 400px;
 }
@@ -31,13 +32,12 @@
 }
 #col2{
     background-color: #E57E8C;
-    position: relative;
     z-index: -1;
 }
 .socialLinks{
     position: absolute;
     top: 50%;
-    left: 85%;
+    left: 93%;
     transform: translateY(-50%); 
 }
 .socialLinks img{
