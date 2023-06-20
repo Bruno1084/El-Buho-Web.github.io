@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./Styles/Header.css">
     <link rel="stylesheet" href="./Styles/Footer.css">
     <link rel="stylesheet" href="./Styles/product-page.css">
+    <link rel="stylesheet" href="./Styles/Estilos_de_control.css">
 
 
     <title>El Búho</title>
@@ -36,60 +37,67 @@
     </section>
 
     <section id="modal">
-        <div class="card col-sm-8 col-md-6">
-            <div class="card-header">
-                <div class="row">
-                    <div class="col-md-6">
-                        <span>PAGO CON TARJETA </span>
-                        </span> CRÉDITO/DÉBITO</span>  
-                    </div>
-                    <div class="col-md-6 d-flex justify-content-md-end">
-                      <img src="https://img.icons8.com/color/36/000000/visa.png">
-                      <img src="https://img.icons8.com/color/36/000000/mastercard.png">
-                      <img src="https://img.icons8.com/color/36/000000/amex.png">           
-                    </div>      
-                </div>    
-            </div>
-
-            <div class="card-body">
-                <div class="row">
-                    <div class="form-group col-md-6">
-                        <label for="numeric" class="control-label">NOMBRE COMPLETO</label>
-                        <input  type="text" class="input-lg form-control">
-                      </div>
-
-                      <div class="form-group col-md-6">
-                        <label for="numeric" class="control-label">DNI DEL TITULAR</label>
-                        <input  type="text" class="input-lg form-control">
-                      </div>
-                    
-                    
-                </div>
-              <div class="form-group">
-                <label for="cc-number" class="control-label">NUMERO DE TARJETA</label>
-                <input id="cc-number" type="tel" class="input-lg form-control cc-number" autocomplete="cc-number" placeholder="&bull;&bull;&bull;&bull; &bull;&bull;&bull;&bull; &bull;&bull;&bull;&bull; &bull;&bull;&bull;&bull;" required>
-              </div>
+      <div class="card col-sm-8 col-md-6">
+          <div class="card-header">
               <div class="row">
-                <div class="col-md-6">
-                     <div class="form-group">
-                        <label for="cc-exp" class="control-label">FECHA DE VENCIMIENTO</label>
-                        <input id="cc-exp" type="tel" class="input-lg form-control cc-exp" autocomplete="cc-exp" placeholder="&bull;&bull; / &bull;&bull;" required>
-                      </div>
-                </div>
-
-                 <div class="col-md-6">
-                   <div class="form-group">
-                    <label for="cc-cvc" class="control-label">CÓDIGO DE SEGURIDAD</label>
-                    <input id="cc-cvc" type="tel" class="input-lg form-control cc-cvc" autocomplete="off" placeholder="&bull;&bull;&bull;&bull;" required>
+                  <div class="col-md-6">
+                      <span>PAGO CON TARJETA </span>
+                      </span> CRÉDITO/DÉBITO</span>  
                   </div>
-                </div>   
+                  <div class="col-md-6 d-flex justify-content-md-end">
+                    <img src="https://img.icons8.com/color/36/000000/visa.png">
+                    <img src="https://img.icons8.com/color/36/000000/mastercard.png">
+                    <img src="https://img.icons8.com/color/36/000000/amex.png">           
+                  </div>      
+              </div>    
+          </div>
+
+          <div class="card-body">
+              <div class="row">
+                  <div class="form-group col-md-6" id="contenido-col1">
+                      <label for="numeric" class="control-label">NOMBRE COMPLETO</label>
+                      <input  type="text" class="input-lg form-control" id="nombre_completo">
+                      <span id="cc-exp-error" class="error-message"></span>
+                    </div>
+
+                    <div class="form-group col-md-6" id="contenido-col2">
+                      <label for="numeric" class="control-label">DNI DEL TITULAR</label>
+                      <input  type="text" class="input-lg form-control" id="dni_del_titular">
+                      <span id="cc-exp-error" class="error-message"></span>
+                    </div>
+                  
+                  
               </div>
-              <div class="form-group">
-                <input  value="PAGAR" type="submit" class="btn btn-lg form-control" id="fPagar">
-              </div>
+            <div class="form-group">
+              <label for="cc-number" class="control-label">NUMERO DE TARJETA</label>
+              <input id="cc-number" type="tel" class="input-lg form-control cc-number" autocomplete="cc-number" placeholder="&bull;&bull;&bull;&bull; &bull;&bull;&bull;&bull; &bull;&bull;&bull;&bull; &bull;&bull;&bull;&bull;" required>
+              <span id="cc-exp-error" class="error-message"></span>
             </div>
-        </div>
-    </section>
+            <div class="row">
+              <div class="col-md-6">
+                   <div class="form-group">
+                      <label for="cc-exp" class="control-label">FECHA DE VENCIMIENTO</label>
+                      <input id="cc-exp" type="tel" class="input-lg form-control cc-exp" autocomplete="cc-exp" placeholder="&bull;&bull; / &bull;&bull;" required>
+                      <span id="cc-exp-error" class="error-message"></span>
+
+                    </div>
+              </div>
+
+               <div class="col-md-6">
+                 <div class="form-group">
+                  <label for="cc-cvc" class="control-label">CÓDIGO DE SEGURIDAD</label>
+                  <input id="cc-cvc" type="tel" class="input-lg form-control cc-cvc" autocomplete="off" placeholder="&bull;&bull;&bull;&bull;" required>
+                  <span id="cc-exp-error" class="error-message"></span>
+
+                </div>
+              </div>   
+            </div>
+            <div class="form-group">
+              <input  value="PAGAR" type="submit" class="btn btn-lg form-control" id="fPagar">
+            </div>
+          </div>
+      </div>
+  </section>
 
       <!-- Footer -->
       <footer class="text-center text-white">
@@ -143,5 +151,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <script src="./Scripts/product-page.js"></script>
+    <script src="./Scripts/form-control-compra.js"></script>
 </body>
 </html>

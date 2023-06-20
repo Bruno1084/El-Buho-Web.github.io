@@ -1,0 +1,57 @@
+/*FormularioEstilos*/
+.controlador-form p {
+    visibility: hidden;
+    font-size: small;
+    font-weight: 500;
+    float: right;
+}
+
+.controlador-form input:focus {
+	border: 3px solid #0075FF;
+	outline: none;
+	box-shadow: 3px 0px 30px rgba(163,163,163, 0.4);
+}
+
+.controlador-form.falla p {
+    visibility: visible;
+    color:#e74c3c;
+
+}
+.controlador-form.ok input {
+    border: 1px solid;
+    border-color: #1ed12d;
+}
+.controlador-form.ok textarea {
+    border: 1px solid;
+    border-color: #1ed12d;
+    
+}
+.controlador-form.falla input {
+    border: 1px solid;
+    border-color: #fe5f55;
+}
+.controlador-form.falla textarea {
+    border: 1px solid;
+    border-color: #fe5f55;
+}
+
+.swal2-confirm{
+    background-color: #e96274 !important;
+}
+
+.controlador-form.falla p.mensajeError1 {
+    margin-top: 0.875rem;
+    margin-left: 28.125rem;
+}
+
+.controlador-form.falla p.mensajeError2 {
+    margin-top: 12.813rem;
+    margin-left: 20.5rem;
+}
+
+
+.error-message {
+    color: red;
+    font-size: 12px;
+  }
+  
