@@ -21,9 +21,6 @@ const createCard=(productos)=> {
           <div class="card-heading">
             <a href="" class="text-decoration-none" class="card-tittle">${producto.nombre}</a>
           </div>
-          <div class="card-text text-muted">
-            ${producto.descripción}
-          </div>
           <div class="card-text d-flex justify-content-around" id="card-prices">
             <p class="fs-4" id="price">$ ${producto.precio}</p>
             <p class="text-success" id="discount">${producto.descuento}</p>

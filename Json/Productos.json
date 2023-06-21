@@ -21,7 +21,7 @@
     {
         "imagen": "https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/shoes-Product.png",
         "nombre": "Zapatillas Adidas Sport",
-        "descripción": "Zapatillas Adidas urbanas color piel, 41/42.",
+        "descripción": "Zapatillas Adidas urbanas.",
         "categoria": "zapatilla",
         "precio": 7320,
         "descuento": "5%",
@@ -41,7 +41,7 @@
     {
         "imagen": "https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/buzo-Product.jpg",
         "nombre": "Buzo Valknut",
-        "descripción": "Buzo Valknut con runas nórdicas color gris.",
+        "descripción": "Buzo Valknut nórdico.",
         "categoria": "abrigo",
         "precio": 6200,
         "descuento": "10%",
@@ -51,7 +51,7 @@
     {
         "imagen": "https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/pantalon-Product.jpg",
         "nombre": "Pantalon de Vestir",
-        "descripción": "Pantalon Vittorio, talle m/l/xl.",
+        "descripción": "Pantalon de vesti Vittorio, algodón",
         "categoria": "pantalon",
         "precio": 7500,
         "descuento": "",
@@ -61,7 +61,7 @@
     {
         "imagen": "https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/remera-Product2.jpg",
         "nombre": "Remera Rallada Daily",
-        "descripción": "Remera Rallada blanco y gris, algodón.",
+        "descripción": "Remera Rallada oversized, blanco y gris, algodón.",
         "categoria": "remera",
         "precio": 5520,
         "descuento": "12%",
@@ -140,7 +140,7 @@
     {
         "imagen":"https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/camisa-Product.jpg",
         "nombre":"Camisa Leñadora",
-        "descripción":"Camisa Leñadora l/xl",
+        "descripción":"Camisa Leñadora hombre, slim-fit",
         "categoria":"camisa",
         "precio": 7200,
         "descuento":"",
