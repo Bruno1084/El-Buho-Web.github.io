@@ -6,6 +6,8 @@ var fechaNacimientoInput = document.getElementById('cc-exp');
 var codigoSeguridadInput = document.getElementById('cc-cvc');
 var botonEnviar = document.getElementById('fPagar');
 
+botonEnviar.disabled=true;
+
 // Agregar eventos de escucha para validar los campos en tiempo real
 window.addEventListener('input', (e)=> {
     botonEnviar.disabled = true;
@@ -15,7 +17,7 @@ window.addEventListener('input', (e)=> {
         e.preventDefault();
     }else{
       botonEnviar.disabled = false;
-      botonEnviar.addEventListener('click', showAlert);
+      botonEnviar.addEventListener('click', formCompraEnviado);
 
     }
 })
@@ -100,9 +102,8 @@ const validaFalla = (input, msje) => {
 const validaOk = (input) => {
     const formControl = input.parentElement
     formControl.className = 'controlador-form ok'
+    const aviso= formControl.querySelector('span');
+    aviso.innerText= ''
 }
 
-function showAlert(){
-  alert("comprado");
-}
 

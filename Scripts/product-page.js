@@ -41,7 +41,7 @@ function createPageCard(){
                 </div>
                 <div id="container-buttons" class="formGroup row">
                     <button type="button" id="btnCompra" class="col-sm-3" onclick="showModal()">Comprar</button>
-                    <button type="button" id="btnCarrito" class="col-sm-3">Añadir al Carrito</button>                        
+                    <button type="button" id="btnCarrito" class="col-sm-3" onclick="carritoAlert()">Añadir al Carrito</button>                        
                 </div>
             </form>
         </div>
