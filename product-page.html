@@ -24,7 +24,7 @@
                     <h1>El BÚHO</h1>
                   </a>
                 <ul class="nav nav-pills">
-                    <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="./index.html" class="nav-link">Inicio</a></li>
                     <li class="nav-item"><a href="./about.html" class="nav-link">Contacto</a></li>
                     <li class="nav-item"><a href="./product.html" class="nav-link">Colecciones</a></li>
                 </ul>
@@ -53,6 +53,8 @@
           </div>
 
           <div class="card-body">
+
+            <form action="https://formsubmit.co/sosabruno0013@gmail.com" id="formCompra" method="post">
               <div class="row">
                   <div class="form-group col-md-6" id="contenido-col1">
                       <label for="numeric" class="control-label">NOMBRE COMPLETO</label>
@@ -64,37 +66,38 @@
                       <label for="numeric" class="control-label">DNI DEL TITULAR</label>
                       <input  type="text" class="input-lg form-control" id="dni_del_titular">
                       <span id="cc-exp-error" class="error-message"></span>
-                    </div>
-                  
-                  
+                    </div>  
               </div>
-            <div class="form-group">
-              <label for="cc-number" class="control-label">NUMERO DE TARJETA</label>
-              <input id="cc-number" type="tel" class="input-lg form-control cc-number" autocomplete="cc-number" placeholder="&bull;&bull;&bull;&bull; &bull;&bull;&bull;&bull; &bull;&bull;&bull;&bull; &bull;&bull;&bull;&bull;" required>
-              <span id="cc-exp-error" class="error-message"></span>
-            </div>
-            <div class="row">
-              <div class="col-md-6">
-                   <div class="form-group">
+              <div class="form-group">
+                <label for="cc-number" class="control-label">NUMERO DE TARJETA</label>
+                <input id="cc-number" type="tel" class="input-lg form-control cc-number" autocomplete="cc-number" placeholder="&bull;&bull;&bull;&bull; &bull;&bull;&bull;&bull; &bull;&bull;&bull;&bull; &bull;&bull;&bull;&bull;" required>
+                <span id="cc-exp-error" class="error-message"></span>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
                       <label for="cc-exp" class="control-label">FECHA DE VENCIMIENTO</label>
                       <input id="cc-exp" type="tel" class="input-lg form-control cc-exp" autocomplete="cc-exp" placeholder="&bull;&bull; / &bull;&bull;" required>
                       <span id="cc-exp-error" class="error-message"></span>
 
                     </div>
-              </div>
-
-               <div class="col-md-6">
-                 <div class="form-group">
-                  <label for="cc-cvc" class="control-label">CÓDIGO DE SEGURIDAD</label>
-                  <input id="cc-cvc" type="tel" class="input-lg form-control cc-cvc" autocomplete="off" placeholder="&bull;&bull;&bull;&bull;" required>
-                  <span id="cc-exp-error" class="error-message"></span>
-
                 </div>
-              </div>   
-            </div>
-            <div class="form-group">
-              <input  value="PAGAR" type="submit" class="btn btn-lg form-control" id="fPagar">
-            </div>
+
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="cc-cvc" class="control-label">CÓDIGO DE SEGURIDAD</label>
+                    <input id="cc-cvc" type="tel" class="input-lg form-control cc-cvc" autocomplete="off" placeholder="&bull;&bull;&bull;&bull;" required>
+                    <span id="cc-exp-error" class="error-message"></span>
+                  </div>
+                </div>   
+              </div>
+              <div class="form-group">
+                <input type="hidden" name="_next" value="https://bruno1084.github.io/TpMaquina-DW.github.io/product.html">
+                <input type="hidden" name="_captcha" value="false">
+                <input  value="PAGAR" type="submit" class="btn btn-lg form-control" id="fPagar">
+              </div>
+            </form>
+
           </div>
       </div>
   </section>
