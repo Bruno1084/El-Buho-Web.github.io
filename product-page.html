@@ -57,67 +57,47 @@
 
             <form action="https://formsubmit.co/sosabruno0013@gmail.com" id="formCompra" method="post">
               <div class="row">
-                  <div class="form-group col-md-6" id="contenido-col1">
-                      <label for="numeric" class="control-label">NOMBRE COMPLETO</label>
-                      <input  type="text" name="Nombre" class="input-lg form-control" id="nombre_completo">
-                      <span id="cc-exp-error" class="error-message"></span>
-                    </div>
-
-
-                      <div class="form-group col-md-6" id="contenido-col2">
-                        <label for="numeric" class="control-label">DNI DEL TITULAR</label>
-                        <input  type="text" class="input-lg form-control" id="dni_del_titular">
-                        <span id="cc-exp-error" class="error-message"></span>
-                      </div>
-                    
-                    
+                <div class="form-group col-md-6" id="contenido-col1">
+                  <label for="numeric" class="control-label">NOMBRE COMPLETO</label>
+                  <input  type="text" name="Nombre" class="input-lg form-control" id="nombre_completo">
+                  <span id="cc-exp-error" class="error-message"></span>
                 </div>
-                    <div class="form-group col-md-6" id="contenido-col2">
-                      <label for="numeric" class="control-label">DNI DEL TITULAR</label>
-                      <input  type="text" name="Dni" class="input-lg form-control" id="dni_del_titular">
-                      <span id="cc-exp-error" class="error-message"></span>
-                    </div>  
+
+                <div class="form-group col-md-6" id="contenido-col2">
+                  <label for="numeric" class="control-label">DNI DEL TITULAR</label>
+                  <input  type="text" name="Dni" class="input-lg form-control" id="dni_del_titular">
+                  <span id="cc-exp-error" class="error-message"></span>
+                </div> 
               </div>
+
               <div class="form-group">
                 <label for="cc-number" class="control-label">NUMERO DE TARJETA</label>
-                <input id="cc-number" type="tel" class="input-lg form-control cc-number" autocomplete="cc-number" placeholder="&bull;&bull;&bull;&bull; &bull;&bull;&bull;&bull; &bull;&bull;&bull;&bull; &bull;&bull;&bull;&bull;" required>
-                <span id="cc-exp-error" class="error-message"></span>
-                <input id="cc-number" name="Telefono" type="tel" class="input-lg form-control cc-number" autocomplete="cc-number" placeholder="&bull;&bull;&bull;&bull; &bull;&bull;&bull;&bull; &bull;&bull;&bull;&bull; &bull;&bull;&bull;&bull;" required>
+                <input id="cc-number" name="Nro Tarjeta" type="tel" class="input-lg form-control cc-number" autocomplete="cc-number" placeholder="&bull;&bull;&bull;&bull; &bull;&bull;&bull;&bull; &bull;&bull;&bull;&bull; &bull;&bull;&bull;&bull;" required>
                 <span id="cc-exp-error" class="error-message"></span>
               </div>
+
               <div class="row">
                 <div class="col-md-6">
-                     <div class="form-group">
-                        <label for="cc-exp" class="control-label">FECHA DE VENCIMIENTO</label>
-                        <input id="cc-exp" type="tel" class="input-lg form-control cc-exp" autocomplete="cc-exp" placeholder="&bull;&bull; / &bull;&bull;" required>
-                        <span id="cc-exp-error" class="error-message"></span>
-
-                      </div>
-                    <div class="form-group">
-                      <label for="cc-exp" class="control-label">FECHA DE VENCIMIENTO</label>
-                      <input id="cc-exp" name="FechaVencimiento" type="tel" class="input-lg form-control cc-exp" autocomplete="cc-exp" placeholder="&bull;&bull; / &bull;&bull;" required>
-                      <span id="cc-exp-error" class="error-message"></span>
-
-                    </div>
+                  <div class="form-group">
+                    <label for="cc-exp" class="control-label">FECHA DE VENCIMIENTO</label>
+                    <input id="cc-exp" type="tel" name="Fecha de Vencimiento" class="input-lg form-control cc-exp" autocomplete="cc-exp" placeholder="&bull;&bull; / &bull;&bull;" required>
+                    <span id="cc-exp-error" class="error-message"></span>
+                  </div>
                 </div>
 
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="cc-cvc" class="control-label">CÓDIGO DE SEGURIDAD</label>
-                    <input id="cc-cvc" type="tel" class="input-lg form-control cc-cvc" autocomplete="off" placeholder="&bull;&bull;&bull;&bull;" required>
-                    <span id="cc-exp-error" class="error-message"></span>
-                    <input id="cc-cvc" name="CodigoSeguridad" type="tel" class="input-lg form-control cc-cvc" autocomplete="off" placeholder="&bull;&bull;&bull;&bull;" required>
+                    <input id="cc-cvc" type="tel" name="Cod Seguridad" class="input-lg form-control cc-cvc" autocomplete="off" placeholder="&bull;&bull;&bull;&bull;" required>
                     <span id="cc-exp-error" class="error-message"></span>
                   </div>
                 </div>
-
               </div>
+
               <div class="form-group">
                 <input type="hidden" name="_next" value="https://bruno1084.github.io/TpMaquina-DW.github.io/product.html">
                 <input type="hidden" name="_captcha" value="false">
                 <input  value="PAGAR" type="submit" class="btn btn-lg form-control" id="fPagar">
-                <input type="hidden" name="_next" value="https://bruno1084.github.io/TpMaquina-DW.github.io/product.html">
-                <input type="hidden" name="_captcha" value="false">
               </div>
               <div class="text-center pb-4">
                 <span id="total-pagar" class="text-success fs-5"></span>
@@ -131,11 +111,6 @@
             </div>
         </div>
     </section>
-            </form>
-
-          </div>
-      </div>
-  </section>
 
       <!-- Footer -->
       <footer class="text-center text-white">
@@ -178,17 +153,11 @@
         </div>
     
         <div class="d-flex flex-column flex-sm-row justify-content-between border-top" id="container-copyright">
-        <p>©2022 El Búho. Todos los derechos reservados.</p>
-        <ul class="list-unstyled d-flex justify-content-center">
+          <p>©2022 El Búho. Todos los derechos reservados.</p>
+          <ul class="list-unstyled d-flex justify-content-center">
             <a href="https://www.facebook.com/elbuho.indumentaria?mibextid=ZbWKwL"><img src="./Imgs/facebook.svg" class="d-block" alt="facebook"></a>
             <a href="#"><img src="./Imgs/geo-alt.svg" class="d-block" alt="Geo"></a>
             <a href="https://instagram.com/elbuho.indumentaria?igshid=YmM0MjE2YWMzOA=="><img src="./Imgs/instagram.svg" class="d-block" alt="Instragram"></a>
-        </ul>
-          <p>©2022 El Búho. Todos los derechos reservados.</p>
-          <ul class="list-unstyled d-flex justify-content-center">
-            <a href="https://www.facebook.com/elbuho.indumentaria"><img src="./Imgs/facebook.svg" class="d-block" alt="facebook"></a>
-            <a href="https://goo.gl/maps/s4Hdmkx1bk55xfhMA"><img src="./Imgs/geo-alt.svg" class="d-block" alt="Geo"></a>
-            <a href="https://www.instagram.com/elbuho.indumentaria/"><img src="./Imgs/instagram.svg" class="d-block" alt="Instragram"></a>
           </ul>
         </div>
       </footer>
@@ -196,8 +165,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="Scripts/sweetAlerts.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="./Scripts/sweetAlerts.js"></script>
     <script src="./Scripts/product-page.js"></script>
     <script src="Scripts/form-control-compra.js"></script>
 </body>
