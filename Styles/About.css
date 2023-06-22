@@ -66,29 +66,36 @@ button{
     font-size: small;
     font-weight: 500;
     float: right;
+    margin-bottom:0px;
 }
 .controlador-form.falla p {
     visibility: visible;
     color:#e74c3c;
+    margin-bottom:0px;
 
 }
 .controlador-form.ok input {
-    border: 1px solid;
+    border: 2px solid;
     border-color: #08ffc8;
+    box-shadow: 3px 0px 30px rgba(163,163,163, 0.1);
 }
 .controlador-form.ok textarea {
-    border: 1px solid;
+    border: 2px solid;
     border-color: #08ffc8;
+    box-shadow: 3px 0px 30px rgba(163,163,163, 0.1);
 }
 .controlador-form.falla input {
-    border: 1px solid;
+    border: 2px solid;
     border-color: #fe5f55;
+    box-shadow: 3px 0px 30px rgba(163,163,163, 0.1);
 }
 .controlador-form.falla textarea {
-    border: 1px solid;
+    border: 2px solid;
     border-color: #fe5f55;
+    box-shadow: 3px 0px 30px rgba(163,163,163, 0.1);
 }
 
 .swal2-confirm{
     background-color: #e96274 !important;
 }
+

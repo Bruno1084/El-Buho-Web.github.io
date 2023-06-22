@@ -5,30 +5,34 @@ window.addEventListener('load', ()=> {
     const fNumber = document.getElementById('number');
     const fEmail = document.getElementById('email');
     const fMessage = document.getElementById('message');
-    var isValid= false
     
     form.addEventListener('click', (e) => {
-        validaCampos();
-        if(isValid== false){
+        var verificado = validaCampos();
+        if(verificado != 4){
             e.preventDefault();
         }else{
             formEnviado();
         }
   
     });
+
+    window.addEventListener('input', ()=> {
+        var verificado = validaCampos();
+    })
     
     function validaCampos(){
         var name = fName.value.trim();
         var number = fNumber.value.trim();
         var email = fEmail.value.trim();
         var message = fMessage.value.trim();
-
+        var verificado = 0;
      
     
         if(!name){
             validaFalla(fName, 'Campo vacío');
         }else{
             validaOk(fName);
+            verificado ++;
         }
     
     
@@ -38,17 +42,19 @@ window.addEventListener('load', ()=> {
             validaFalla(fEmail, 'El e-mail no es válido');
         }else {
             validaOk(fEmail);
+            verificado ++;
         }
     
         
         var numberEj = number.replace(/\D/g, '');         
-        if (numberEj.length !== 10) {
-            validaFalla(fNumber, 'Debe contener 10 numeros obligatorios');
-        }
+        
         if(!numberEj){
             validaFalla(fNumber, 'Campo vacío');
+        }if (numberEj.length < 10 || numberEj.length >10) {
+            validaFalla(fNumber, '10 numeros obligatorios');
         }else {
             validaOk(fNumber);
+            verificado ++;
         }
     
         if (message.length > 60) {
@@ -58,7 +64,10 @@ window.addEventListener('load', ()=> {
             validaFalla(fMessage, 'Campo vacío');
         }else {
             validaOk(fMessage);
+            verificado ++;
         }
+
+        return verificado;
     }
     
     const validaFalla = (input, msje) => {
