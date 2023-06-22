@@ -2,7 +2,7 @@
     {
         "imagen": "https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/Shirt-removebg.png",
         "nombre": "Remera Goddam Saint",
-        "descripción": "Remera Goddam Saint estampada, talla M Negra.",
+        "descripción": "Remera Goddam Saint estampada, Negra.",
         "categoria": "remera",
         "precio": 3500,
         "descuento": "15%",
@@ -11,7 +11,7 @@
     {
         "imagen": "https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/Pants-BlackAndWhite-removebg.png",
         "nombre": "Pantalon Bicolor Streetwear",
-        "descripción": "Pantalón bicolor streetwar, talla S, M.",
+        "descripción": "Pantalón bicolor streetwar.",
         "categoria": "pantalon",
         "precio": 5230,
         "descuento": "",
@@ -91,7 +91,7 @@
     {
         "imagen":"https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/camisa3.jpg",
         "nombre":"Camisa de Vestir",
-        "descripción":" Camisa de Vestir slim-fit talle m/l",
+        "descripción":" Camisa de Vestir slim-fit.",
         "categoria":"camisa",
         "precio": 6420,
         "descuento":"5%",
@@ -101,7 +101,7 @@
     {
         "imagen":"https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/zapatilla2.jpg",
         "nombre":"Zapatillas Nike Dunk Low",
-        "descripción":"Zapatillas Nike multicolor, talla 42/41",
+        "descripción":"Zapatillas Nike multicolor.",
         "categoria":"zapatilla",
         "precio": 12500,
         "descuento":"",
@@ -121,7 +121,7 @@
     {
         "imagen":"https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/remera3.jpg",
         "nombre":"Remera Baseball",
-        "descripción":"Remra baseball rallada x/xl",
+        "descripción":"Remra baseball.",
         "categoria":"remera",
         "precio": 4900,
         "descuento":"",
@@ -150,7 +150,7 @@
     {
         "imagen": "https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/abrigo3.jpg",
         "nombre": "Chaleco Ariel 6-12A",
-        "descripción": "Chaleco Ariel 6-12A talle m/l",
+        "descripción": "Chaleco Ariel 6-12A.",
         "categoria": "abrigo",
         "precio": 10200,
         "descuento": "",
@@ -160,7 +160,7 @@
     {
         "imagen": "https://bruno1084.github.io/TpMaquina-DW.github.io/Imgs/zapatilla3.jpg",
         "nombre": "Zapatilla Adidas UltraBoost",
-        "descripción": "Zapatillas Adidas runing, 39/40",
+        "descripción": "Zapatillas Adidas runing.",
         "categoria": "zapatilla",
         "precio": 8300,
         "descuento": "5%",
